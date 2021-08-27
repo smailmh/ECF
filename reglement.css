@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(210, 218, 241);
+}
+
+
+#logo {
+  width: 90px;
+  height: 100%;
+  float: left;
+  margin-right: 50%px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  background-color: rgb(190, 226, 238);
+  height: 90px;
+}
+#button {
+  margin: 10px;
+  background-color: rgb(250, 245, 245);
+  font: 20px bold;
+}
+
+li {
+  list-style-type: none;
+}
+.accueil li {
+  display: inline;
+  text-align: center;
+  padding-inline: 60px;
+}
+
+.connexion {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  font: 20px bold;
+  padding-top: 5%;
+}
+.item1 {
+  grid-column: 1 / span 3;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: cornsilk;
+  text-align: center;
+  margin-top: 5%;
+}
+
+footer img {
+  width: 30px;
+  height: 20px;
+}
+footer a {
+  color: dodgerblue;
+}
+.reseaux {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.texte {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.texte div {
+  margin-top: 1%;
+}
+.articles > li {
+  display: block;
+  margin: 10px;
+  background-color: rgb(240, 232, 232);
+}
+.centre {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 5%;
+}
+.fluxreseaux {
+  border: 1px solid;
+  overflow-y: scroll;
+  background-color: rgb(180, 150, 150);
+  height: 650px;
+}
+.articles {
+  border: 1px solid;
+  overflow-y: scroll;
+  width: 90%;
+  height: 650px;
+  background-color: rgb(156, 143, 143);
+}
+.articles h2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1%;
+  text-align: center;
+  background-color: #7a817a;
+  border: 2px solid #1f201f;
+}
+#button:hover {
+  background-color: darkgoldenrod;
+}

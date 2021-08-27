@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pageInscription.css"/>
+    <title>Document</title>
+  </head>
+<div id="contenu">
+    <div class="container">
+        <div class="accueil" >
+          <ul>
+            <li><a href="BBiblioIndex.html"><img  src="logo.png" id="logo"></a></li>
+            <li><a href="Reglement.html"><button id="button"> Le réglement détaillé du concours</button></a></li>
+            <li><a href="Oeuvresinscrites.html"><button id="button">Oeuvres inscrites au concours</button></a></li>
+          </ul>
+        </div>
+        <div class="connexion">
+          <div><input class="identifiant"><br>Identifiant</input></div>
+          <div><input id="mdp"><br>Mot de Passe</input></div>
+          <div ><button onclick="validate()" class="valider"></a>Valider</button></div>
+          <p id="msg"></p>
+          
+        </div>
+    </div>
+</div>
+    <div class="inscription">
+      <h3>Formulaire demande d'inscription au concours </h3>
+        <form type="radio" action="" method="POST">
+        <div class="information">
+            <div class="information1">
+                 <div> Civilité :
+                     <input type="radio" name="civilite"> Mme
+                        <input type="radio" name="civilite"> M.
+                </div>
+            <div>Nom :<input type="text" name="nom" value=""></div>
+            <div>Prénom: <input type="text" name="prénom" value=""></div>
+            <div>Adresse: <input type="text" name="Adresse" value=""></div>
+            <div>Pays: <input type="text" name="Pays" value=""></div>
+
+            </div>
+            <div class="information2">
+                <div> Statut:
+                     <input type="radio" name="Statut"> Auteur
+                     <input type="radio" name="Statut"> Jury
+                    <input type="radio" name="civilite"> Autre
+                </div>
+                <div>Adresse mail : <input type="text" name="email" value=""></div>
+                <div>Confirmation mail<input type="text" name="email" value=""></div>
+                <div>Mot de passe: <input type="password" name="pass" value=""></div>
+                <div>ConfirmationMot de passe: <input type="password" name="pass" value=""></div>
+            </div>
+            <div> <button id="submit" type="submit" > Soumettre </button></div>
+        </div>
+        </form>
+    </div>
+    <footer>
+        <div class="reseaux">
+          <div class="facebook">
+            <a href=""> <img src="facebook.jpeg" /></a>
+          </div>
+          <div class="tweeter">
+            <a href=""> <img src="indeed.jpeg" /></a>
+          </div>
+          <div class="instagram">
+            <a href=""> <img src="instagram.jpeg" /></a>
+          </div>
+        </div>
+        <div class="texte">
+          <div><a href="smail.mahiddine@yahoo.fr">Nous contacter</a></div>
+          <div><a href="flg.html">Participer au concours</a></div>
+        </div>
+      </footer>
+  </body>
+</html>

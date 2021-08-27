@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ReinitialiserMotdePasse.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <div id="contenu">
+      <div class="container">
+        <div class="accueil" >
+          <ul>
+            <li><a href="BBiblioIndex.html"><img  src="logo.png" id="logo"></a></li>
+            <li><a href="Reglement.html"><button id="button"> Le réglement détaillé du concours</button></a></li>
+            <li><a href="Oeuvresinscrites.html"><button id="button">Oeuvres inscrites au concours</button></a></li>
+          </ul>
+        </div>
+        <div class="connexion">
+          <div><input class="identifiant"><br>Identifiant</input></div>
+          <div><input><br>Mot de Passe</input></div>
+          <div ><button class="valider"></a>Valider</button></div>
+        </div>
+        <div class="centre">
+          <h3> Formulaire de création du mot de passe </h3>
+          <p>Vous avez reçu le mot de passe provisoire par mail</p>
+          <p>Merci de saisir votre mot de passe provisoire <input id="mdpprovisire"></p>
+          <span> **  Merci de saisir votre nouveau mot de passe  contenant au minimun 10 cacartéres, incluant une miniscule, une majuscule, un chiffre et un caractère spécial **</span>
+          <p>Votre nouveau mot de passe <input id="mdp1"></p>
+          <p>Confirmation du nouveau  mot de passe  <input id="mdp2"></p>
+          <button id="submit" type="submit" onclick="validate()" > soumettre  </button> 
+          <span id="msg"></span>
+        </div>
+      </div>
+  </div>
+  <footer>
+    <div class="reseaux">
+      <div class="facebook">
+        <a href=""> <img src="facebook.jpeg" /></a>
+      </div>
+      <div class="tweeter">
+        <a href=""> <img src="indeed.jpeg" /></a>
+      </div>
+      <div class="instagram">
+        <a href=""> <img src="instagram.jpeg" /></a>
+      </div>
+    </div>
+    <div class="texte">
+      <div><a href="smail.mahiddine@yahoo.fr">Nous contacter</a></div>
+      <div><a href="FormulairedemandeAuteur.html">Participer au concours</a></div>
+      <div><a href="FormulairedemandeJury.html"> Devenir membre de jury</a></div>
+    </div>
+  </footer>
+  <script src="ReinitialiserMotdePasse.js"></script>
+</body>
+</html>

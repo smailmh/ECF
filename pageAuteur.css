@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(210, 218, 241);
+}
+
+#logo {
+  width: 90px;
+  height: 100%;
+  float: left;
+  margin-right: 50%px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  background-color: rgb(190, 226, 238);
+  height: 120px;
+}
+#button {
+  margin: 10px;
+  background-color: rgb(250, 245, 245);
+  font: 20px bold;
+}
+
+li {
+  list-style-type: none;
+}
+.accueil li {
+  display: inline;
+  text-align: center;
+  padding-inline: 60px;
+}
+
+.connexion {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  font: 20px bold;
+  padding-top: 5%;
+}
+.profil button {
+  height: 30%;
+  width: 70%;
+  margin-top: 1%;
+}
+
+.auteur {
+  border: 2px solid rgb(3, 3, 3);
+  margin-top: 5%;
+  width: 60%;
+  margin: 5% 20%;
+}
+#image {
+  width: 250px;
+  height: 180px;
+}
+.references {
+  float: left;
+  padding: 20px;
+}
+
+.oeuvres {
+  display: block;
+  text-align: center;
+}
+.auteur2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.references > div {
+  padding: 5px;
+  width: 150px;
+  font: 15px bold;
+}
+.oeuvres {
+  display: block;
+}
+.titrelivre {
+  font: 30px bold;
+}
+.buttonauteur2 {
+  font: 20px bold;
+}
+footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: cornsilk;
+  text-align: center;
+  width: 100%;
+}
+
+footer img {
+  width: 30px;
+  height: 20px;
+}
+.reseaux {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.texte {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.texte div {
+  margin-top: 1%;
+}
+.titrelivre {
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+input {
+  margin-left: 1%;
+  border: 2px solid;
+  border-radius: 10%;
+  width: 250px;
+}

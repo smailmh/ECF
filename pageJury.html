@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pageJury.css">
+    <title>Document</title>
+  </head>
+  <body>   
+
+    <div class="container">
+        <div class="accueil" >
+          <ul>
+            <li><a href="BBiblioIndex.html"><img  src="logo.png" id="logo"></a></li>
+            <li><a href="Reglement.html"><button id="button"> Le réglement détaillé du concours</button></a></li>
+            <li><a href="Oeuvresinscrites.html"><button id="button">Oeuvres inscrites au concours</button></a></li>
+          </ul>
+        </div>
+        <div class="connexion">
+          <div><p>Bonjour Mr Dupont</p></div>
+          <div ><button class="deconnexion"><a href=""></a>Deconnexion</button></div>
+        </div>
+    </div>
+    <div class="jury">
+      <div class="jury1">
+        <div class="infolivre">
+          <h2> Titre du livre</h2>
+          <textarea id="resumélivre" rows="8" cols="50"> résumé du livre </textarea>
+        </div>
+        <button class="telecharger">Telecharger</button> 
+        <!-- ce boutton envois vers la base de donnée pour le téléchargement du livre-->
+        <div> 
+          <div> 
+            <h3>Merci de selectionner une note pour chaque critère</h3>  
+            <h4> Meilleur style<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>
+            <h4> Meilleure illustration<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>
+            <h4> Meilleure mise en page<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>
+            <h4> Meilleure émotion<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>  
+            <button id="submit" type="submit" > Valider les notes  </button>       
+          </div>
+          
+      </div>
+      </div>
+      <div class="jury2">
+        <div class="infolivre">
+          <div>
+            <h2> Titre du livre</h2>
+            <textarea id="resumélivre" rows="8" cols="50"> résumé du livre </textarea>
+          </div>
+          <button class="telecharger">Telecharger</button>
+          <!-- ce boutton envois vers la base de donnée pour le téléchargement du livre-->
+          <div> 
+            <div> 
+              <h3>Merci de selectionner une note pour chaque critère</h3>  
+              <h4> Meilleur style<select>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</optio>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+              </select>
+              </h4>
+              <h4> Meilleure illustration<select>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</optio>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+              </select>
+              </h4>
+              <h4> Meilleure mise en page<select>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</optio>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+              </select>
+              </h4>
+              <h4> Meilleure émotion<select>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</optio>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+              </select>
+              </h4>   
+              <button id="submit" type="submit" > Valider les notes  </button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="jury3">
+        <div class="infolivre">
+          <h2> Titre du livre</h2>
+          <textarea id="resumélivre" rows="8" cols="50"> résumé du livre </textarea>
+        </div>
+        <button class="telecharger">Telecharger</button>
+        <!-- ce boutton envois vers la base de donnée pour le téléchargement du livre-->
+        <div> 
+          <div> 
+            <h3>Merci de selectionner une note pour chaque critère</h3>  
+            <h4> Meilleur style<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>
+            <h4> Meilleure illustration<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>
+            <h4> Meilleure mise en page<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>
+            <h4> Meilleure émotion<select>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</optio>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+              <option value="0">0</option>
+            </select>
+            </h4>   
+            <button id="submit" type="submit" > Valider les notes  </button>      
+          </div>     
+      </div>
+    </div>
+      <div class="jury4">
+        <div class="infolivre">
+          <h2> Titre du livre</h2>
+          <textarea id="resumélivre" rows="8" cols="50"> résumé du livre </textarea>
+        </div>
+        <button class="telecharger">Telecharger</button>
+        <!-- ce boutton envois vers la base de donnée pour le téléchargement du livre-->
+        <div> 
+          <h3>Merci de selectionner une note pour chaque critère</h3>  
+          <h4> Meilleur style<select>
+            <option value="10">10</option>
+            <option value="9">9</option>
+            <option value="8">8</optio>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+          </select>
+          </h4>
+          <h4> Meilleure illustration<select>
+            <option value="10">10</option>
+            <option value="9">9</option>
+            <option value="8">8</optio>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+          </select>
+          </h4>
+          <h4> Meilleure mise en page<select>
+            <option value="10">10</option>
+            <option value="9">9</option>
+            <option value="8">8</optio>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+          </select>
+          </h4>
+          <h4> Meilleure émotion<select>
+            <option value="10">10</option>
+            <option value="9">9</option>
+            <option value="8">8</optio>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+          </select>
+          </h4>   
+          <button id="submit" type="submit" > Valider les notes  </button>      
+        </div>
+      </div>
+    </div>
+
+    <div class="notes">
+     <a href="notesdonnées.html"><button id="button" type="submit">Consulter les notes attribuées</button></a>
+    </div>
+    
+    <footer>
+      <div class="reseaux">
+        <div class="facebook">
+          <a href=""> <img src="facebook.jpeg" /></a>
+        </div>
+        <div class="tweeter">
+          <a href=""> <img src="indeed.jpeg" /></a>
+        </div>
+        <div class="instagram">
+          <a href=""> <img src="instagram.jpeg" /></a>
+        </div>
+      </div>
+      <div class="texte">
+        <div><a href="smail.mahiddine@yahoo.fr">Nous contacter</a></div>
+        <div><a href="flg.html">Participer au concours</a></div>
+      </div>
+    </footer>
+</body>
+</html>

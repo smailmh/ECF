@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(210, 218, 241);
+}
+
+.connexion > *:hover {
+  background-color: rgb(201, 200, 187);
+}
+
+#logo {
+  width: 90px;
+  height: 100%;
+  float: left;
+  margin-right: 50%px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  background-color: rgb(190, 226, 238);
+  height: 90px;
+}
+#button {
+  margin: 10px;
+  background-color: rgb(250, 245, 245);
+  font: 20px bold;
+}
+
+li {
+  list-style-type: none;
+}
+.accueil li {
+  display: inline;
+  text-align: center;
+  padding-inline: 60px;
+}
+
+.connexion {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  font: 20px bold;
+  padding-top: 5%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: cornsilk;
+  text-align: center;
+  margin-top: 2%;
+  width: 100%;
+}
+footer img {
+  width: 30px;
+  height: 20px;
+}
+footer a {
+  color: dodgerblue;
+}
+.reseaux {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.texte {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.texte div {
+  margin-top: 1%;
+}
+.inscription {
+  display: block;
+  border: 2px solid;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.information {
+  display: grid;
+  grid-template-columns: auto auto;
+  font: 30px bold;
+}
+.information,
+h2 {
+  text-decoration: underline;
+}
+.motivation p {
+  font: 20px bold;
+}
+h2 {
+  text-align: center;
+}
+.information1 {
+  display: block;
+  padding: 40px;
+}
+.information2 {
+  display: block;
+  padding-top: 40px;
+}
+.information1 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+.information2 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+#submit {
+  margin-left: 550px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(158, 101, 101);
+}
+.motivation {
+  text-align: center;
+}
+.submit > p {
+  text-align: center;
+}
+a:hover {
+  color: rgb(194, 12, 12);
+}
+#button:hover {
+  background-color: darkgoldenrod;
+}

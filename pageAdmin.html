@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pageAdmin.css" />
+    <title>Document</title>
+  </head>
+<body>
+
+    <div class="container">
+        <div class="accueil" >
+          <ul>
+            <li><a href="BBiblioIndex.html"><img  src="logo.png" id="logo"></a></li>
+            <li><a href="Reglement.html"><button id="button"> Le réglement détaillé du concours</button></a></li>
+            <li><a href="Oeuvresinscrites.html"><button id="button">Oeuvres inscrites au concours</button></a></li>
+          </ul>
+        </div>
+        <div class="connexion">
+          <div><input class="identifiant"><br>Identifiant</input></div>
+          <div><input id="mdp"><br>Mot de Passe</input></div>
+          <div ><button onclick="validate()" class="valider"></a>Valider</button></div>
+          <p id="msg"></p>
+        </div>
+    </div>
+    <h3> Bienvenue dans votre espace </h3>
+    <div class="centre">
+       
+        <div class="menuAdmin">
+            <ul>
+            <a href="#" onclick="show('Section1');"><button> Comptes  Validés </button> </a>
+            <a href="#" onclick="show('Section2');"> <button>Comptes  à Valider </button></a>
+            <a href="#" onclick="show('Section3');"> <button>Oeuvres   à Valider </button></a>   
+            </ul>
+        </div>
+        <div id="tableaux">
+            <div id="Section1">
+            <table>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Statut</th>
+                <th>Contact</th>
+                <th>Validation</th>
+            </tr>
+            <tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr>
+            <tr>
+                <td>Berger</td>
+                <td>Marie</td>
+                <td>Juré</td>
+                <td>marie.berger@orange.fr</td>
+                <td>validé</td>
+            </tr>
+            <tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr><tr>
+                <td>De Lafonte</td>
+                <td>Michel</td>
+                <td>Auteur</td>
+                <td>delafonte.michel@orange.fr</td>
+                <td>validé</td>
+            </tr>
+            </table>
+            </div>
+            <div id="Section2">
+            <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Statut</th>
+            <th>Contact</th>
+            <th>Validation</th>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        <tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr><tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr><tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr><tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr><tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr><tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr><tr>
+            <td>De Lafonte</td>
+            <td>Michel</td>
+            <td>Auteur</td>
+            <td>delafonte.michel@orange.fr</td>
+            <td> A valider </td>
+        </tr>
+        </table>
+            </div>
+            <div id="Section3">
+                <table>
+                    <tr>
+                        <th>Titre du livre</th>
+                        <th>Auteur</th>
+                        <th>Catégorie</th>
+                        <th>Statut</th>     
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                    <tr>
+                        <td>l'opium et le batton</td>
+                        <td>Mouloud Mameri</td>
+                        <td>Meilleur Roman Français</td>
+                        <td > validé</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="reseaux">
+      <div class="facebook">
+        <a href=""> <img src="facebook.jpeg" /></a>
+      </div>
+      <div class="tweeter">
+        <a href=""> <img src="indeed.jpeg" /></a>
+      </div>
+      <div class="instagram">
+        <a href=""> <img src="instagram.jpeg" /></a>
+      </div>
+    </div>
+    <div class="texte">
+      <div><a href="smail.mahiddine@yahoo.fr">Nous contacter</a></div>
+      <div><a href="FormulairedemandeAuteur.html">Participer au concours</a></div>
+      <div><a href="FormulairedemandeJury.html"> Devenir membre de jury</a></div>
+    </div>
+    </footer>
+    <script src="pageAdmin.js"></script>
+</body>
+</html>
